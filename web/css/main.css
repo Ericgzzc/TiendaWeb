@@ -1,0 +1,530 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 23, 2015, 8:41:26 PM
+    Author     : Neosony
+*/
+.summaryColumn{
+    display: block;
+    width: 300px;
+    float: left;    
+    
+}
+
+
+.buscar{
+    
+    display: block;
+    width: 55%;
+}
+.forma{
+    
+    display: block;
+    float: left;
+    width: 55%;
+}
+
+.horizontalMargin {
+    margin-left: 28px;
+    margin-right: 5px
+}
+
+.botones{
+    
+    padding-top: 15px;
+}
+
+.slider {
+	/*box-shadow: 0px 10px 25px -10px #000;*/
+	/*height: 480px;*/
+	width: 100%;
+}
+.slider {
+	/*background: url("../images/misc/slider.jpg") no-repeat center;*/
+}
+
+/*SLIDER*/
+#slider {
+	margin: 0 auto;
+}
+
+ul.bjqs {
+	position:relative;
+	background: #333; 
+	list-style:none;
+	padding:0;
+	margin:0;
+	overflow:hidden; 
+	display:none;
+}
+
+li.bjqs-slide div {
+	background: #333;
+	display: block;
+	width: 640px;
+	height: 360px;
+	margin: 0 auto;
+}
+li.bjqs-slide div iframe {
+	margin: 0 auto;
+}
+
+
+li.bjqs-slide {
+	display: none;
+	position: absolute;
+}
+
+li.bjqs-slide {
+	
+}
+li.bjqs-slide a{
+	background: url("../images/stages/stage_ensamble.jpg") no-repeat center 10px;
+	display: block;
+	width: 940px;
+	height: 480px;
+	
+	overflow: hidden;
+	z-index: 0;
+}
+li.bjqs-slide a img{
+	
+	display: block;
+	margin: 0 auto;
+	padding-top: 200px;
+}
+li.bjqs-slide a img:hover{
+	
+	
+}
+
+
+ul.bjqs-controls {
+	list-style:none;
+	margin:0;
+	padding:0;
+	z-index:9999;
+}
+
+ul.bjqs-controls.v-centered li a {
+	position:absolute;
+}
+
+ul.bjqs-controls.v-centered li.bjqs-next a {
+	background: url('../images/butons/arrows.png') no-repeat -35px 6px;
+	display: block;
+	height: 60px;
+	right: -60px;
+	opacity: 0.7;
+	width: 60px;
+}
+
+ul.bjqs-controls.v-centered li.bjqs-next a,
+ul.bjqs-controls.v-centered li.bjqs-prev a,
+ol.bjqs-markers li {
+	background-color: #75F514;
+}
+
+ul.bjqs-controls.v-centered li.bjqs-prev a {
+	background: url('../images/butons/arrows.png') no-repeat 13px 6px #75F514;
+	display: block;
+	height: 60px;
+	left: -60px;
+	opacity: 0.7;
+	width: 60px;
+}
+
+ul.bjqs-controls.v-centered li.bjqs-prev a:hover,
+ul.bjqs-controls.v-centered li.bjqs-next a:hover {
+	opacity: 1;
+}
+
+ol.bjqs-markers { 
+	bottom: 0;
+	list-style: none; 
+	padding: 10px 0; 
+	position: absolute;
+	background: #75F514;
+	margin: 0; 
+	width:100%;
+}
+
+ol.bjqs-markers.h-centered { 
+	text-align: center;
+}
+
+ol.bjqs-markers li {
+	border-radius: 13px;
+	display: inline-block;
+	margin-right: 10px;
+	width: 13px; 
+	height: 13px;
+	opacity: 0.7;
+	background: transparent;
+	border: 3px solid #fff;
+}
+
+ol.bjqs-markers li:hover,
+ol.bjqs-markers li.active-marker {
+	background: #fff;
+	opacity: 1;
+}
+
+ol.bjqs-markers li a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	text-decoration: none;
+}
+
+p.bjqs-caption {
+	display:block;
+	width:96%;
+	margin:0;
+	padding:2%;
+	position:absolute;
+	bottom:0;
+}
+
+.clear {
+	overflow: hidden;
+}
+/* STYLES */
+.hide {
+	display: none;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.inner-940px {
+	clear: both;
+	margin: 0 auto;
+	width: 940px;
+}
+
+body {
+	background: #333;
+	font-family: 'helvetica';
+	font-size: 15px;
+	font-weight: 100;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: white;
+	height: 100px;
+}
+
+#footer {
+	background: #333;
+	height: 50px;
+}
+
+#footer span {
+	color: white;
+	font-size: 0.8em;
+	line-height: 60px;
+}
+#footer .bluemilk {
+	background: url("../images/misc/bluemilk.png") no-repeat right center;
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	margin-top: 15px;
+	padding-right: 100px;
+}
+
+root { 
+    display: block;
+}
+
+/* Etiquetas HTML */
+
+hr {
+    border: 0;
+    background-color: #333;
+    height: 1px;
+    margin: 0 25px;
+    width: 300px;
+}
+
+/* Estilos generales */
+#singleColumn {
+    margin: 20px 30px;
+    text-align: left;
+}
+
+/* Estilos de elementos contenidos en la cabecera */
+
+#logo {
+    height: 155px;
+    width: 155px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#logoText {
+    float: left;
+    margin: 20px 0 0 70px;
+    /*estilos de fuentes aplicados al texto dentro de la etiqueta "alt".*/
+    font-family: 'American Typewriter', Courier, monospace;
+    font-size: 50px;
+    
+}
+#widgetBar {
+    height: 50px;
+    width: 100%;
+    float: right;
+    background: #ccc;
+    overflow:hidden;
+}
+.headerWidget {
+    width: 194px;
+    font-size: small;
+    float: right;
+    line-height: 25px;
+    background: #aaa;
+    height: 100%;
+  overflow:hidden;
+}
+
+.fixed {
+	background: #75F514;
+	display: block;
+	height: 114px;
+	padding: 5px;
+	position: fixed;
+	right: 0;
+	top: 45%;	
+	width: 35px;
+}
+
+.fixeado {
+    box-shadow: 0 10px 25px -10px #000000;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+.fixedsubnav {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+.fixed ul.social {
+	margin: 0;
+	padding: 0;
+}
+
+.fixed ul.social li {
+	border-bottom: 1px solid white;
+	display: block;
+	height: 34px;
+	margin-bottom: 3px;
+	padding-bottom: 3px;
+	width: 35px;
+}
+
+.fixed ul.social li.last {
+	border: none;
+}
+
+.fixed ul.social li a {
+	background: url("../img/butons/socialicons.png") no-repeat 0 0;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.fixed ul.social li a.tweet {
+	background-position: -34px -33px;
+}
+
+.fixed ul.social li a.face {
+	background-position: -35px 0;
+}
+
+.fixed ul.social li a.youtube {
+	background-position: -34px -66px;
+}
+
+.fixed ul.social li a.tweet:hover {
+	background-position: 0 -33px;
+}
+
+.fixed ul.social li a.face:hover {
+	background-position: 0 0;
+}
+
+.fixed ul.social li a.youtube:hover {
+	background-position: 0 -66px;
+}
+#content {
+	background: white;
+        overflow: hidden;
+	min-height: 400px;
+}
+/* Estilos para la página index */
+#indexLeftColumn {
+    height: 400px;
+    width: 30%;
+    float: left;
+    background: #ccc;
+    overflow: hidden;
+    display: block;
+   
+}
+#indexRightColumn {
+    float: left;
+    background: #eee; 
+    height: 550px;
+    width: inherit;
+    display: block;
+    overflow:hidden;   
+    
+}
+.img_cat{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    
+}
+.categoryBox {
+    float: left;
+    height: 225px;
+    margin: 26px 35px 20px;
+    width: 241px;
+    background: #ccc;
+    display: block;
+}
+.categoryLabelText {
+    line-height: 150%;
+    font-size: x-large;
+    text-align: center;
+    display: block;
+}
+/* Estilos para la página de categorías */
+#categoryLeftColumn {
+    width: 20%;
+    float: left;
+    margin-top: 25px;
+    padding-left: 15px;
+}
+#categoryRightColumn {
+    margin-top: 10px;
+    width: 80%;
+    float: left;
+}
+.categoryButton {
+    margin: 15px 22px;
+    padding: 13px;
+    display: block;
+}
+#selectedCategory {
+    background-color: #b2d2d2;
+    margin-left: 10px;
+    
+}
+#categoryTitle {
+   
+}
+.categoryText {
+    line-height: 25px;
+    font-size: x-large;
+}
+
+/* cart page styles */
+#actionBar {
+    margin: 30px;
+    width: 750px;
+    text-align: center;
+}
+#subtotal { margin: 40px 0 20px 430px }
+#cartTable { width: 750px }
+#cartTable td {
+    width: 145px;
+    height: 90px;
+}
+/* checkout page styles */
+#checkoutTable {
+    width: 360px;
+    background-color: #f5eabe;
+    float: left;
+    height: 280px;
+}
+#infoBox {
+    width: 300px;
+    padding-left: 30px;
+    float: left;
+}
+#priceBox {
+    padding: 10px;
+    margin: 10px 0;
+    height: 128px;
+    background-color: #c3e3e0;
+}
+/* confirmation page styles */
+#confirmationText {
+    margin: 0 20px 20px;
+    padding: 10px;
+    background-color: #f5eabe;
+    width:540px;
+}
+.summaryColumn {
+    margin-top: 15px;
+    width: 400px;
+    float: left;
+    margin-right: 50px;
+}
+#orderSummaryTable {
+    width: 100%;
+    text-align: left;
+    height: 200px;
+}
+#deliveryAddressTable {
+    width: 70%;
+    margin-left: 15%;
+    text-align: left;
+    height: 200px;
+}
+
+
+
+
+.a-max {
+	background: url('../images/butons/document.png') no-repeat center #75F514 ;
+	color: #fff;
+	display: inline-block;
+	font-size: 1.7em;
+	float: left;
+	height: 170px;
+	margin-bottom: 15px;
+	padding: 20px 10px 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	width: 180px;
+}
+.a-min {
+	background: url("../images/butons/butons.png") no-repeat right 10px;
+	color: #fff;
+	display: block;
+	float: left;
+	line-height: 50px;
+	padding: 0 35px 0 10px;
+	text-decoration: none;
+	width: auto;
+}
+.a-min.link {
+	background-position: right -99px;
+} 
+.download.fb {
+	background-position: right -50px;
+}

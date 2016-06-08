@@ -1,0 +1,23 @@
+<div id="footer">
+		<div class="inner-940px">
+			<span class="left">Difusión Cultural Campus Monterrey Copyright 2013</span>
+			<span class="right bluemilk">Desarrollado por</span>
+		</div>
+	</div>
+</body>
+<script tex="type/javascript">
+                jQuery(document).ready(function($) {
+                  $('#slider').bjqs({
+                    animtype      : 'slide',
+                    height        : 480,
+                    width         : 940,
+                    animspeed : 10000,
+                    responsive    : false,
+                    nexttext      : '',
+                    prevtext      : '',
+                    hoverpause : true
+                  });
+                });
+            </script>
+</html>
+

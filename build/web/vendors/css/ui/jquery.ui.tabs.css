@@ -1,0 +1,45 @@
+/*!
+ * jQuery UI Tabs 1.10.3
+ * http://jqueryui.com
+ *
+ * Copyright 2013 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Tabs#theming
+ */
+.ui-tabs {
+	position: relative;/* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+}
+.ui-tabs .ui-tabs-nav {
+	
+}
+.ui-tabs .ui-tabs-nav li {
+	
+}
+.ui-tabs .ui-tabs-nav li a {
+	
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a,
+.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
+.ui-tabs .ui-tabs-nav li.ui-tabs-loading a {
+	
+}
+.ui-tabs .ui-tabs-nav li a, /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active a {
+	
+}
+.ui-tabs .ui-tabs-panel {
+	
+}
+.ui-tabs .ui-tabs-nav .ui-state-active a {
+	font-weight: 400;
+}
+.ui-tabs .ui-tabs-nav .ui-state-active a,
+.ui-tabs .ui-tabs-nav .ui-state-active a:hover {
+	background-position: left 1px;
+	color: #aaa;
+}
